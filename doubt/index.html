@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Index</title>
+
+</head>
+
+<body style="width: 100%;">
+    <div id="main div">
+        <!-- Header of the webpage -->
+        <header>
+
+            <img id="logo" src="./assests/images/logo.png" alt="logo" height="60px" width="60px"><br>
+             <div class="container-modal">
+            <button id="login" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                data-target="#myModal">Login</button>
+
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Please LOgin!</h5>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="index.html" method="get" autocomplete="off">
+
+                                <label>Username</label>
+                                <input type="text" name="username" value="" placeholder="enter your name" required><br>
+                                <label>Password</label>
+                                <input type="password" name="password" value="" placeholder="enter your password" required><br>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-primary">LOgin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+
+
+    </div>
+    </header>
+    <!-- Content div -->
+    <div>
+        <input type="text" id="search-bar" placeholder="City"><br>
+    </div>
+    <div id="Content-div">
+        <div class="image-container" style="margin-top: 15%;">
+            <a href="list.html">
+                <img class=" images" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg "
+                    height="150px" width="150px"></a>
+            <div class="container-overly">
+
+                <div class="text">DELHI</div>
+            </div>
+        </div>
+        <div class="image-container" style="margin-top: 15%;">
+            <img class=" images" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg "
+                height="150px" width="150px">
+            <div class="container-overly">
+                <div class="text">GOA</div>
+            </div>
+        </div>
+        <div class="image-container" style="margin-top: 15%;">
+            <img class=" images" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg  "
+                height="150px" width="150px">
+            <div class="container-overly">
+                <div class="text">HYDERBAD</div>
+            </div>
+        </div>
+        <div class="image-container" style="margin-top: 15%;">
+            <img class=" images" src=" https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                height="150px" width="150px"><br>
+            <div class="container-overly">
+                <div class="text">KOLKATA</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer of the webapge -->
+    <footer>
+
+
+
+        <!-- <a id="contact-us" href="contact.html" target="_blank">Contact Us</a><br><br> -->
+        <!-- <button id="contact-us"  class="btn btn-primary">Contact-us</button> -->
+        <!-- <button id="contact-us" type="button" class="btn btn-info">Contact-us</button> -->
+        <div class="container-modal2">
+            <button id="contact-us" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                data-target="#myModals">Contact us</button>
+
+        <div class="modal" id="myModals">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">GET IN TOUCH WITH US</h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <p>We will contact you as soon as possible...</p>
+                  <labe>Email</labe>
+                  <input type="email" placeholder="Enter email" required>
+                </div>
+                <div class="modal-footer">
+                 
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <a id="viewmore" href="index.html">View More>></a>
+
+        <div id="logogrp">
+            <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" height="20px"
+                    width="22px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" height="20px"
+                    width="22px"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" height="20px"
+                    width="22px"></a><br>
+        </div>
+        <span id="copy">© 2022 ROOM SEARCH PVT. LTD.</span>
+
+
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
